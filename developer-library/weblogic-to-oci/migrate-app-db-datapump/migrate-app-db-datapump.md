@@ -31,6 +31,20 @@ To run this lab you need:
 - To have provisioned the target database on OCI
 - To have gathered information about the passthrough-server to the DB, and the DB node IP and domain name which is part of the connection string.
 
+## ** To be decided **
+
+- How to connect private instance from your bastion instance ( follow below screenshots )
+      - Open your PuttyKeyGen and import private (.ppk) of the public key pair that you used while creating DB
+      - Go to conversions tab and do **Export OpenSSH key** and save file as <filename>.ssh
+      - Login to your bastion instance via putty
+      - Go to folder /home/opc/.ssh/ and type vi id_rsa and paste the content of <filename>.ssh and save it (command to save file- <:wq!> )
+      - Next, test your connection by ssh -i /home/opc/.ssh/id_rsa opc@<private_IP_DB>
+      
+      <img src="./images/puttygen-1.png" width="70%">
+      <img src="./images/puttygen-2.png" width="70%">
+      <img src="./images/puttygen-3.png" width="70%">
+      
+
 ## **STEP 1:** Get a shell inside the 'on-premises' database instance
 
 ### If you used the Docker environment:
