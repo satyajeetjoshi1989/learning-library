@@ -163,9 +163,10 @@ Once the stack is provisioned, you can find the information regarding the URL an
 
 ## **STEP 2:** Gather the necessary WebLogic stack information
 
-  <img src="./images/provision-27.png" width="100%">
+  <img src="./images/provision-29.png" width="100%">
+  <img src="./images/provision-30.png" width="100%">
 
-1. Make a note of the **WebLogic Admin Server public IP address** from the **WebLogic Admin Server Console URL** for later use.
+1. Make a note of the **WebLogic Bastion Server public IP address** from the **Stack** for later use.
 
 2. Make a note of the **Load Balancer IP** for later use.
 
