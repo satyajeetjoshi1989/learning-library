@@ -780,7 +780,7 @@ updateDomain.sh completed successfully (exit code = 0)
    1. Enter Bastion Host and add public key in **Auth** tab
    2. Go to **SSH** tab (step 1) --> Tunnels (step 2) --> Enter port number 7002 (Step 3) --> add private IP of weblogic:9071 (Step 4) --> hit add (Step 5)
    3. You see values added (Step 6)
-   4. Go to next tab **X11** and check **Enable X11 forwarding**
+   4. Go to next tab **X11** (Step 7) and check **Enable X11 forwarding** (Step 8)
     
    <img src="./images/putty-1a.png" width="70%">
    <img src="./images/putty-1.png" width="70%">
