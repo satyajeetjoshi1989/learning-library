@@ -169,7 +169,6 @@ Once the stack is provisioned, you can find the information regarding the URL an
 
 2. Make a note of the **Load Balancer IP** for later use.
 
-You can copy/paste the **WebLogic Admin Console URL** in your browser and explore the provisioned WebLogic domain. You should find that there are no applications in **deployments** and no data sources in the **service->datasources** menu
 
 While the WebLogic instances are provisioning, it's possible to move forward with the Application Database provisioning as soon as the VCN is provisioned.
 
