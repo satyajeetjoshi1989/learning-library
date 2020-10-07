@@ -40,9 +40,11 @@ To run this lab you need:
       - Go to folder /home/opc/.ssh/ and type vi id_rsa and paste the content of <filename>.ssh and save it (command to save file- <:wq!> )
       - Next, test your connection by ssh -i /home/opc/.ssh/id_rsa opc@<private_IP_DB>
       
-     <img src="./images/puttygen-1.png" width="70%">
-     <img src="./images/puttygen-2.png" width="70%">
-     <img src="./images/puttygen-3.png" width="70%">
+     <img src="./images/puttygen-1.png" width="50%">
+     
+     <img src="./images/puttygen-2.png" width="50%">
+     
+     <img src="./images/puttygen-3.png" width="50%">
       
 
 ## **STEP 1:** Get a shell inside the 'on-premises' database instance
