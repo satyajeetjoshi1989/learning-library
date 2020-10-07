@@ -125,7 +125,7 @@ For this lab, you need to have prepared the OCI tenancy with:
    The stack will create the subnets for us.
    And keep default CIDR range of Bastion and select shape of Bastion Host.
 
-  <img src="./images/provision-28-subnets.png" width="70%">
+  <img src="./images/provision-28.png" width="70%">
 
 19. **Check** the **Provision Load Balancer** checkbox and keep the defaults
 
