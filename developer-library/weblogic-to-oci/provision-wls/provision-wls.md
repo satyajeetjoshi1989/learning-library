@@ -120,11 +120,12 @@ For this lab, you need to have prepared the OCI tenancy with:
 
    Note: If you were to migrate from an on-premises domain connected via VPN or FastConnect, you would want to make sure the CIDR block does not conflict with the local network.
 
-18. **Keep the defaults for subnets** as-is:
+18. **select private subnets** as-is:
 
    The stack will create the subnets for us.
+   And keep default CIDR range of Bastion and select shape of Bastion Host.
 
-  <img src="./images/provision-19-subnets.png" width="70%">
+  <img src="./images/provision-28-subnets.png" width="70%">
 
 19. **Check** the **Provision Load Balancer** checkbox and keep the defaults
 
