@@ -773,7 +773,21 @@ updateDomain.sh completed successfully (exit code = 0)
 
 ### You're done!
 
-## **STEP 6:** Check that the app deployed properly
+## **STEP 6:**  Configure Tunneling via Putty.
+
+1. Oprn your Putty session and follow as states below
+    
+    a. Enter Bastion Host and add public key in **Auth** tab
+    b. Go to **SSH** tab (step 1) --> Tunnels (step 2) --> Enter port number 7002 (Step 3) --> add private IP of weblogic:9071 (Step 4) --> hit add (Step 5)
+    c. You see values added (Step 6)
+    d. go to next tab **X11** and check **Enable X11 forwarding**
+    
+    <img src="./images/putty-1a.png" width="100%">
+    <img src="./images/putty-1.png" width="100%">
+    <img src="./images/putty-2.png" width="100%">
+
+
+## **STEP 7:** Check that the app deployed properly
 
 1. Go to the WebLogic Admin console at https://`ADMIN_SERVER_PUBLIC_IP`:7002/console
 
