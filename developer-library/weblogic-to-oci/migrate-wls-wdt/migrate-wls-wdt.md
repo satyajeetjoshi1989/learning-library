@@ -782,9 +782,9 @@ updateDomain.sh completed successfully (exit code = 0)
    3. You see values added (Step 6)
    4. Go to next tab **X11** and check **Enable X11 forwarding**
     
-   <img src="./images/putty-1a.png" width="100%">
-   <img src="./images/putty-1.png" width="100%">
-   <img src="./images/putty-2.png" width="100%"> 
+   <img src="./images/putty-1a.png" width="70%">
+   <img src="./images/putty-1.png" width="70%">
+   <img src="./images/putty-2.png" width="70%"> 
 
  
 ## **STEP 7:** Check that the app deployed properly
