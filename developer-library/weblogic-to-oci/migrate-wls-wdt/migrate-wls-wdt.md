@@ -37,6 +37,23 @@ To run this lab, you need to:
 - Have deployed a WebLogic on OCI domain using the marketplace
 - Have migrated the Application database from the source environment to OCI
 
+## ** To be decided **
+
+How to connect private instance from your bastion instance ( follow below screenshots )
+    1. Open your PuttyKeyGen and import private (.ppk) of the public key pair that you used while creating DB
+    2. Go to conversions tab and do **Export OpenSSH key** and save file as <filename>.ssh
+    3. Login to your bastion instance via putty
+    4. Go to folder /home/opc/.ssh/ and type vi id_rsa and paste the content of <filename>.ssh and save it (command to save file- <:wq!> )
+    5. Next, test your connection by ssh -i /home/opc/.ssh/id_rsa opc@<private_IP_DB>
+      
+   <img src="./images/puttygen-1.png" width="50%">
+   
+   <img src="./images/puttygen-2.png" width="50%">
+     
+   <img src="./images/puttygen-3.png" width="50%">
+   
+   
+
 ## **STEP 1:** Installing WebLogic deploy tooling
 
 ### Using the docker 'on-premises' environment:
