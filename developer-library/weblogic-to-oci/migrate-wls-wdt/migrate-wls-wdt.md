@@ -784,7 +784,7 @@ updateDomain.sh completed successfully (exit code = 0)
     
     <img src="./images/putty-1a.png" width="100%">
     <img src="./images/putty-1.png" width="100%">
-    <img src="./images/putty-2.png" width="100%">
+    <img src="./images/putty-2.png" width="100%"> 
 
 
 ## **STEP 7:** Check that the app deployed properly
