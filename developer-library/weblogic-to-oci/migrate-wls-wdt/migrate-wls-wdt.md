@@ -786,7 +786,7 @@ updateDomain.sh completed successfully (exit code = 0)
     <img src="./images/putty-1.png" width="100%">
     <img src="./images/putty-2.png" width="100%"> 
 
-
+ 
 ## **STEP 7:** Check that the app deployed properly
 
 1. Go to the WebLogic Admin console at https://`ADMIN_SERVER_PUBLIC_IP`:7002/console
